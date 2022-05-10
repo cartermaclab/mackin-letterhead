@@ -1,0 +1,62 @@
+---
+author:
+- \textbf{Michael J. Carter, Ph.D.}
+- Assistant Professor
+- Department of Kinesiology
+
+opening: To NAME,
+closing: Sincerely,
+
+address:
+- INFORMATION LINE 1
+- INFORMATION LINE 2
+- INFORMATION LINE 2
+# - can add more lines if needed
+
+return-address: 
+- Michael J. Carter
+- McMaster University
+- 1280 Main Street West
+- Hamilton, ON L8P 2P8
+- https://cartermaclab.org
+
+letterhead: assets/letterhead.pdf
+letterfoot: assets/letterfoot.pdf
+
+signature: assets/signature-placeholder.pdf
+signature-before: -8ex
+#signature-after:
+
+inline-links: true
+fontsize: 11pt
+header-includes:
+  # McMaster official font
+  - \usepackage[T1]{fontenc}
+  - \usepackage[sfdefault,condensed]{roboto}
+
+output: linl::linl
+
+# For more information on parameters, visit:
+# http://dirk.eddelbuettel.com/code/linl.html
+# https://cran.r-project.org/web/packages/linl/index.html
+# https://github.com/eddelbuettel/linl/issues
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis
+dolor vitae tristique eleifend. Quisque non ipsum sit amet velit
+malesuada consectetur. Praesent vel facilisis leo. Sed facilisis
+varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi
+fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla
+purus justo, congue eget enim a, elementum sollicitudin eros. Cras
+porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt
+nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor
+[egestas fringilla](http://example.com):
+
+> Nullam eget dapibus quam, sit amet sagittis magna. Nam tincidunt,
+> orci ac imperdiet ultricies, neque metus ultrices quam, id gravida
+> augue lacus ac leo.
+
+Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi
+et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros
+placerat non. Cras ornare, risus in faucibus malesuada, libero sem
+fringilla quam, ut luctus enim sapien eget dolor.
